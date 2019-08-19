@@ -1,0 +1,6 @@
+//Laundry Day 20 pakaian
+START
+INPUT baju;
+FOR baju = 0; baju <= 20; baju++;
+DO nyalakan mesin cuci;
+END

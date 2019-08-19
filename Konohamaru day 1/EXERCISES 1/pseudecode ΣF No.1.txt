@@ -1,0 +1,17 @@
+// Newton Second Law
+percepatan == gaya
+percepatan =! masa
+percepatan  == arah gaya total
+
+ΣF = resultan gaya (Newton)
+m = massa benda (kg)
+a = percepatan benda (m/s2)
+
+START
+INPUT m = 2 m/s2;
+INPUT a = 600 kg;
+COMPUTE ΣF = m * a;
+SAVE result;
+SHOW ΣF = 1200n;
+END
+

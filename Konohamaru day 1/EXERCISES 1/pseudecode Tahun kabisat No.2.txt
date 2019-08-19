@@ -1,0 +1,11 @@
+START
+INPUT days total;
+COUNT days % 4;
+COUNT days % 100;
+COUNT days % 400;
+SAVE result;
+IF days % 4 == 0 && days % 100 != 0 || days % 4 == 0 && days % 4 == 100 && days % 4 == 0;
+PRINT Tahun ini adalah Kabisat;
+ELSE
+PRINT Bukan tahu kabisat;
+END;

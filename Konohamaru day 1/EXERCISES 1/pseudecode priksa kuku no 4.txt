@@ -1,0 +1,9 @@
+//PERIKSA KUKU
+
+START
+FOR murid = 1; murid < 41 ; murid++;
+IF kuku == 'bersih';
+DO 'puji';
+ELSE
+DO 'hukuman';
+END
